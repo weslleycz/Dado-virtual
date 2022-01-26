@@ -1,5 +1,5 @@
 body {
-  background-color: #030308;
+  background-color: rgb(3, 3, 8);
   color: white;
 }
 
@@ -13,10 +13,14 @@ img {
   width: auto;
   height: auto;
   position: auto;
+  //pointer-events: none;
+  //-webkit-user-select: none;
+  //-moz-user-select: none;
+  //-ms-user-select: none;
 }
 
-h1 {
-  color: white;
+h1{
+  color: rgb(255, 255, 255);
   margin-left: 48%;
   margin-top: -15%;
 }
@@ -32,15 +36,16 @@ h1 {
   margin-top: 5%;
   -webkit-margin-top-collapse: collapse;
   border-color: #ffffff;
-  border-style: solid;
-  border-width: 5px;
-  border-radius: 5%;
+  border-style:solid;
+  border-width:5px;
+  border-radius:5%;
   width: 35%;
+  
   max-width: 50%;
 }
 
 footer {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-top: 3%;
 }
 
@@ -48,13 +53,13 @@ a {
   text-decoration: none;
 }
 
-.dado-hover :hover {
-  opacity: 0.5;
+.dado-hover {
+  :hover {
+    opacity: 0.5;
+  }
 }
-
-.btn-roll {
+.btn-roll{
   margin-left: 38%;
-  margin-top: 3%;
+  margin-top:3%;
   width: 20%;
 }
-/*# sourceMappingURL=App.css.map */
